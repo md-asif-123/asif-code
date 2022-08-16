@@ -1,0 +1,23 @@
+
+#panel{
+	display:none;
+}
+
+.form-paddding{
+	padding:0 0 0 40px;
+}
+.form-margin{
+	margin: 26px 0px;
+	padding-left: 36px;
+}
+.form-group{
+	position:relative;
+}
+.icon{
+	position: absolute;
+	top: auto;
+	bottom: 8px;
+	right: auto;
+	left: 12px;
+	font-size: 18px;
+}

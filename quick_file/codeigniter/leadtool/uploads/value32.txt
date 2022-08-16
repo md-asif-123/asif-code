@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+$sample_score
+
+
+
+
+
+
+
+
+
+
+$score_contactinformation=$score_fax+$score_mobile+$score_telephone+$score_email+$score_website;
+
+echo  $score_unitprice=$row->score;exit;
+
+
+
+$industry_score

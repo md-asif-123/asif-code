@@ -1,0 +1,673 @@
+@font-face {
+	font-family: 'Futura Lt BT';
+	src: url('../fonts/FuturaBT-Light.eot');
+	src: url('../fonts/FuturaBT-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FuturaBT-Light.woff') format('woff'),
+		url('../fonts/FuturaBT-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Futura Md BT';
+	src: url('../fonts/FuturaBT-Bold.eot');
+	src: url('../fonts/FuturaBT-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FuturaBT-Bold.woff') format('woff'),
+		url('../fonts/FuturaBT-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+body{
+	 font-family: 'Futura Lt BT';
+	 color:#545454;
+	 position:relative;
+}
+.container{
+	width:100%;
+	max-width:1125px;
+}
+.nopadding{
+	padding:0;
+}
+.nopaddingRight{
+	padding-right:0;
+}
+.nopaddingLeft{
+	padding-left:0;
+}
+ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.ApplyOnlineBox b{ 
+	font-weight:400;
+}
+.logo{
+	float:left;
+	position: relative;
+	z-index: 1;
+	padding:10px 0;
+}
+.logo a{
+	width:370px;
+	height:90px;
+	display:block;
+	background:url(../img/logo.png) left center no-repeat;
+}
+.MainHeading{
+	color:#373737;
+	font-size:37px;
+	margin: 0;
+	text-transform: capitalize;
+}
+.MainHeading span{
+	width: 60px;
+	margin: 10px 0;
+	display: block;
+	border-bottom: 3px solid #6bc200;
+}
+/******** HEADER CSS ********/
+#header{
+	min-height:830px;
+	background:url(../img/bannerImg.jpg) top center no-repeat;
+	background-size:cover;
+	position:relative;
+}
+.TopHeader{
+	color:#fff;
+	font-size:14px;
+	padding: 8px 0px;
+	min-height:50px;
+	background:rgba(19,32,62,0.86);
+}
+.TopHeader .fa{
+	color:#87df00;
+}
+.language{
+	color:#fff;
+	width: 20%;
+	border:none;
+	border-radius: 0;
+	display:inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border:1px solid #87df00;
+	background-color: transparent;
+}
+.language:focus {
+	box-shadow:none;
+}
+.phone{
+	padding: 0 30px;
+	display:inline-block;
+}
+.phone span{
+	padding:0 10px;
+}
+.navbar-default {
+	margin: 0;
+	border: none;
+	background: transparent url(../img/2x2.png) bottom center repeat-x;
+}
+.navbar-nav{
+	float:right;
+}
+.navbar-nav > li {padding: 0 25px;}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover  {
+    color: #fff;
+    font-size: 17px;
+	padding: 45px 0px;
+	text-transform:capitalize;
+}
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover {
+	color:#fff;
+	background: transparent url(../img/2x2Green.png) bottom center repeat-x;
+	background-size:2px 3px;
+}
+
+/********** APPLY ONLINE CSS **********/
+
+#ApplyOnline{
+	color: #fff;
+	font-size:18px;
+	margin:-100px 0 0 0;
+}
+#ApplyOnline p{
+	padding:0;
+	margin:0;
+}
+.ApplyOnlineBox{
+	float: left;
+    width: 100%;
+	text-align: left;
+	border-top:5px solid #00aaff;
+	padding: 0 65px 0 0;
+	background: #87d116;
+	position:relative;
+}
+.ApplyOnlineBox img{
+	float:left;
+	margin:0 65px 0 0;
+}
+.ApplyOnlineBox span{
+	font-size:40px;
+	display:block;
+}
+.ApplyOnlineBox p{
+	padding:40px 0 !important;
+}
+.ApplyOnlineBox a{
+	color: #fff;
+	text-decoration:none;
+	padding: 10px 30px;
+    border: 2px solid #fff;
+}
+.BtnDownloadPdf{
+	color:#fee918 !important;
+	border:none !important;
+	padding:0 !important;
+	font-family: 'Futura Md BT';
+}
+.BannerHeading{
+	float: right;
+	color: #fff;
+	position: absolute;
+	top: auto;
+	bottom: 160px;
+	left: auto;
+	right: 15%;
+}
+.BtnMore{
+	color: #fff;
+	padding: 10px;
+	margin:15px 0;
+	display: inline-block;
+	border: 2px solid #00b3ff;
+	text-decoration: none;
+}
+.BtnMore:hover{
+	color: #fff;
+	text-decoration: none;
+}
+#ApplyOnline .fa{
+	font-size:13px;
+}
+
+/********* Discover School CSS *********/
+
+#DiscoverSchool{
+	margin:60px 0;
+}
+#DiscoverSchool p{
+	font-size:16px;
+	margin: 20px 0;
+}
+#DiscoverSchool img{
+	border:5px solid #ebebeb;
+}
+.LearnMore{
+	color:#07b6f7;
+	font-size:18px;
+	text-transform:capitalize;
+}
+.LearnMore:hover{
+	color:#07b6f7;
+	text-decoration:none;
+}
+
+/********* INFORMATION CSS **********/
+
+#Information{
+	min-height:260px;
+}
+.Tabs{
+	margin: -50px 0 0;
+}
+.Tabs .nav-tabs > li {
+	width:25%;
+	color:#010101;
+	font-size:19px;
+	text-align: center;
+}
+.Tabs .nav-tabs > li .last{
+	margin-right:0;
+}
+.Tabs .nav-tabs > li > a{
+	color:#000;
+	border:none;
+	border-radius: 0;
+	margin-right: 20px;
+	border-top:3px solid transparent;
+	background-color:#00aaff;
+}
+.Tabs .nav-tabs > li.active > a, 
+.Tabs .nav-tabs > li.active > a:focus{
+	color:#000;
+	border:none;
+	border-top:3px solid #6bc200;
+	background-color:#fff;
+}
+.Tabs .nav-tabs > li.active > a:hover {
+	color:#000;
+	border:none;
+	border-top:3px solid #6bc200;
+}
+.slick-prev, .slick-next{
+	display:none;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+.slick-slide img{
+	width:100%;
+}
+.slick-slide{
+	padding:0 10px;
+}
+.slick-dots li.slick-active button::before {
+    opacity: 1;
+    color: #77c600;
+    font-size: 50px;
+}
+.slick-dots li button::before {
+	opacity: 0.5;
+	font-size: 50px;
+	color: #bfc5cd;
+}
+.Tabs .tab-content{
+	padding:50px 0;
+}
+.slick-dots {
+    bottom: -75px;
+}
+.Tabs .carousel {
+	min-height:350px;
+}
+.Tabs .carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	border:none;
+	margin: 0 5px;
+	background:#bfc5cd;
+}
+.Tabs .carousel-indicators .active {
+	background:#77c600;
+}
+.Tabs .carousel-indicators {
+    bottom: 0;
+}
+.thamDetails{
+	width: 100%;
+	max-width:295px;
+	padding:25px;
+	margin: -106px auto 0;
+	border-bottom:5px solid #77c600;
+	background: #fff;
+	position: relative;
+}
+.thamDetails h2{
+	color:#000;
+	font-size:22px;
+	margin:0;
+}
+.thamDetails span{
+	color:#4b4b4b;
+	font-size:16px;
+	margin: 25px 0;
+	display: block;
+	overflow:hidden;
+}
+#AdmissionsProcess .thamDetails span {
+    min-height: 122px;
+    overflow: hidden;
+}
+
+/**********  MEDIA CSS **********/
+
+#Media{
+	color:#fff;
+	margin:50px 0;
+	min-height:430px;
+	background:url(../img/galleryBanner.jpg) top center no-repeat;
+	background-size:100% 406px;
+}
+#Media h2 {
+	color:#fff;
+	width: 100%;
+	display: inline-block;
+	margin: 50px 0;
+}
+#Media h2 span{
+	margin: 10px auto;
+}
+.GalleryTabs{
+}
+.GalleryTabs .nav-tabs{
+	text-align:center;
+	border-bottom:none;
+	margin: 70px 0;
+}
+.GalleryTabs .nav-tabs > li{
+	float:none;
+	margin:0;
+	display:inline-block;
+}
+.GalleryTabs .nav-tabs > li > a{
+	color:#fff;
+	font-size: 18px;
+	border:3px solid transparent;
+	border-radius: 0;
+	background-color:transparent;
+}
+.GalleryTabs .nav-tabs > li.active > a,
+.GalleryTabs .nav-tabs > li > a:hover,
+.GalleryTabs .nav-tabs > li.active > a:focus{
+	color:#fff;
+	border:3px solid #77c600;
+	background-color:transparent;
+}
+#Media .tab-content img{
+	width:100%;
+	padding:5px;
+	background:#fff;
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+/*** Admissions Process CSS ***/
+#AdmissionsProcess{
+	padding:30px 0;
+	background:#f8f8f8;
+}
+#AdmissionsProcess .MainHeading span{
+	margin:10px auto;
+}
+#AdmissionsProcess p{
+	color:#000;
+	text-align: center;
+	font-size: 20px;
+	padding:0 25%;
+	margin:30px 0;
+}
+#AdmissionsProcess .thamDetails{
+	max-width:100%;
+	float: left;
+	border:none;
+	margin:0;
+}
+#AdmissionsProcess .BtnMore{
+	color:#3c3c3c;
+	font-size:16px;
+	line-height: normal;
+	text-transform:capitalize;
+    margin: 0;
+	padding: 15px 20px;
+	display:inline-block;
+}
+#AdmissionsProcess .thamDetails ul li{
+	float:left;
+}
+#AdmissionsProcess .thamDetails ul .first{
+	width:25%;
+}
+#AdmissionsProcess .thamDetails ul .last{
+	width:75%;
+	padding-left: 25px;
+}
+.AdmissionIcon{
+	width:70px;
+	height:65px;
+	display:block;
+	background:url(../img/admissionIcon.png) top center no-repeat;
+}
+.pc{
+	background-position: center -77px;
+}
+.checkIcon{
+	background-position: center -150px;
+}
+/******* InnerPage CSS *********/
+
+#InnerPage{
+	color:#545454;	
+	font-size:16px;
+	padding: 0 15px;
+}
+.TextGroup{
+	margin:50px 0;
+	float: left;
+	width: 100%;
+}
+.Address p{
+	color:#000;
+	font-size:22px;
+}
+.Address span{
+	font-size: 18px;
+	display:block;
+}
+.Address a{
+	color:#06a9de;
+	font-size:19px;
+	text-transform: lowercase;
+}
+.news{
+	margin:50px auto;
+}
+.news strong{
+	font-size:20px;
+	font-weight:400;
+}
+.news .TextGroup {
+	margin:30px 0;
+}
+.news img{
+	width:100%;
+}
+.news .TextGroup p{
+	color:#545454;
+	font-size:16px;
+	margin:0;
+}
+
+/*********** FOOTER CSS **********/
+
+#PageFooter{
+	color:#fff;
+	font-size:16px;
+	line-height:18px;
+	background:url(../img/footerBg.jpg) center center no-repeat;
+	background-size: cover;
+}
+.FooterHeading{
+	margin: 0 0 25px;
+}
+.FooterHeading span{
+	width: 60px;
+	margin: 10px 0;
+	display: block;
+	border-bottom: 2px solid #6bc200;
+}
+.FooterContent{
+	float:left;
+	padding: 40px 0;
+	border-bottom:2px solid #2b2b2b;
+}
+.SocialLinksFooter{
+	margin:30px 0;
+}
+.SocialLinksFooterDown{
+	display:none;
+}
+.SocialLinksFooterTop{
+	display:block;
+}
+.SocialLinksFooter ul li{
+	float:left;
+	text-align:center;
+	margin: 0 5px 0 0;
+}
+.SocialLinksFooter ul li a{
+	color:#fff;
+	width:35px;
+	height:35px;
+	padding:8px;
+	text-decoration:none;
+	display: inline-block;
+	border-radius: 50%;
+}
+.fb{
+	background:#3d5283;
+}
+.google{
+	background:#c24e44;
+}
+.twitter{
+	background:#2ea0cc;
+}
+.youtube{
+	background:#bc1e1f;
+}
+.instagram{
+	background:#7d6859;
+}
+.cloud{
+	background:#d4471e;
+}
+.ResourceUl .fa{
+	color:#0781d0;
+	font-size:13px;
+	margin: 0 10px 0 0;
+}
+.ResourceUl li{
+	padding:5px 0;
+}
+.ResourceUl li a{
+	color:#fff;
+	font-size:18px;
+	text-decoration:none;
+	text-transform: capitalize;
+}
+.ContactUl .fa{
+	color:#77e100;
+	font-size:18px;
+	margin: 0 10px 0 0;
+	position:absolute;
+	left: 0;
+}
+.ContactUl li{
+	position:relative;
+	word-wrap: break-word;
+	padding: 5px 0 5px 30px;
+}
+.PostUl li span{
+	color:#4b494a;
+	padding:5px 0;
+	display:block;
+}
+.footerCopyrights{
+	width:100%;
+	padding:30px 0;
+	background:#000;
+}
+.footerCopyrights span{
+	color: #757575;
+}
+
+/********** RESPONSIVE CSS **********/
+
+@media only screen and (max-width : 1199px) {
+	.phone {padding: 0 10px;}
+	.LearnMore {padding: 0px 5px;}
+	.SocialLinksFooter ul li {margin: 0 3px 0 0;}
+	.SocialLinksFooter.SocialLinksFooterTop ul li a{width: 30px;height: 30px;padding: 5px;font-size: 13px;}	
+	.slick-dots {bottom: -40px;}
+}
+
+@media only screen and (max-width : 991px) {
+	.phone{ display:none}
+	.searchbox {float: right;margin: 0 10px;}
+	.navbar-nav > li {padding: 0 10px;}
+	.ApplyOnlineBox span {font-size: 25px;}
+	.ApplyOnlineBox img {margin: 0 20px 0 0;}
+	.ApplyOnlineBox {padding: 0 10px 0 0;}
+	.ApplyOnlineBox p {padding: 30px 0 !important; font-size: 15px;}
+	.ApplyOnlineBox a {margin: 10px 0;}
+	.ApplyOnlineBox b{ display:block;}
+	.MainHeading {font-size: 30px;}
+	#DiscoverSchool p {font-size: 15px;}
+	#DiscoverSchool img { width:100%;margin: 20px 0;}
+	.ResourceUl li a, .ContactUl li, .PostUl li, #PageFooter p{ font-size:14px;}
+	#PageFooter { padding:0; min-height: auto;}
+	.SocialLinksFooter{ text-align:center; float:left; width: 100%;}
+	.SocialLinksFooter ul li{ display:inline-block; float:none;}
+	.SocialLinksFooterTop{ display:none;}
+	.SocialLinksFooterDown{display:block;}
+	#AdmissionsProcess .BtnMore {font-size: 14px;}
+	#AdmissionsProcess .thamDetails span {height: 60px;overflow: hidden;}
+	#AdmissionsProcess .thamDetails ul .first{ margin:10px 0;}
+	#AdmissionsProcess .thamDetails ul .first, #AdmissionsProcess .thamDetails ul .last {width: 100%; padding: 0; text-align: center;}
+	.AdmissionIcon {width: 100%;}
+	.Tabs .thamDetails h2 { font-size:15px;}
+	.Tabs .carousel {min-height: 260px;}
+	.Tabs { min-height:auto;}
+	#AdmissionsProcess .thamDetails { max-width:100%;}
+	.nopaddingLeft, .nopaddingRight, .nopadding{ padding:0 15px;}
+	.language{ padding:0 15px;}
+	.navbar-nav{margin:0;}
+	.BannerHeading{left: 0; right: 0; margin:auto;}
+}
+@media only screen and (max-width : 768px) {
+	.navbar-nav{width:100%;}
+	.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover { padding:15px 0;}
+	.MainHeader{background:rgba(0,0,0,0.3);}
+	.navbar-default .navbar-collapse{background: rgba(19,32,62,0.86); border:none; background-size: auto 90px;}
+}
+@media only screen and (max-width : 767px) {
+	.nopaddingLeft, .nopaddingRight, .nopadding{ padding:0 15px;}
+	.Tabs .nav-tabs > li > a { font-size:14px;}
+	.Tabs {margin: -43px 0 0;}
+	.Tabs img{ width:100%;}
+	#Media .tab-content img{ width:100%;margin: 10px 0;}
+	#PageFooter{background-size: cover;}
+	.SocialLinksFooterDown{ display:block;}
+	.BannerHeading {width: 100%;}
+	#AdmissionsProcess .thamDetails {margin: 10px 0;}
+	.thamDetails{ text-align:center; max-width:100%;}
+	.LearnMore{ display:block; width:100%; text-align:center; margin:10px 0;}
+	.Tabs .carousel{ padding:0 0 30px 0;}
+}
+@media only screen and (max-width : 640px){
+	.ApplyOnlineBox{ padding:0;}
+	.ApplyOnlineBox img { margin:0; width:100%;}
+	.BannerHeading h2{ font-size:25px;}
+	.BannerHeading p{ font-size:13px;}
+	.BtnMore {padding: 5px;margin: 7px 0;font-size: 15px;}
+	.ApplyOnlineBox p{ padding:10px !important; clear:both;}
+	.MainHeading, .FooterHeading {font-size: 20px;}
+	#DiscoverSchool p {font-size: 14px;}
+	.thamDetails { margin:10px 0;}
+	#InnerPage{ font-size:14px;}
+	.TextGroup{ margin:20px 0;}
+	#Media{ background-size:cover;}
+}
+@media only screen and (max-width : 599px){
+	.Tabs .nav-tabs > li { width: 100%;}
+	.Tabs .nav-tabs > li > a{ margin:0;}
+	#AdmissionsProcess p {font-size: 16px;padding: 10px;}
+}
+@media only screen and (max-width : 480px) {
+	.logo{ padding:10px;}
+	.logo a{width: 200px;height: 60px; background-size: 100%;}
+	.ApplyOnlineBox{ text-align:center;}
+	.ApplyOnlineBox b{ font-weight:400; display:block;}
+	.ApplyOnlineBox a{ display:inline-block; float:none !important;}
+}
+
+@media only screen and (max-width : 320px) {
+
+}
+
+

@@ -1,0 +1,8 @@
+$sql_product="SELECT name,categoryname_succ FROM categories WHERE name=:categoryName AND website_id=:website_id";
+		$stmt_product = $dbh->prepare( $sql_product );
+		$stmt_product->execute(array(':categoryName'=>$categoryName,':website_id'=>$website_id));
+		if($stmt_product->rowCount() > 0):
+		$result_product = $stmt_product->fetchObject();
+		$productName = $result_product->name;
+		$productNewcat = $result_product->categoryname_succ;
+		//echo $productNewcat;

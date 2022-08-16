@@ -1,0 +1,304 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+.mainheding{
+	font-weight:bold;
+	font-size:35px;
+	color:#585858;
+	font-family: 'Roboto', sans-serif;
+}
+
+.heading{
+	font-family: 'Roboto', sans-serif;
+	font-size:25px;
+	color:#585858;
+}
+.all-text{
+	font-size:15px;
+	font-weight:400;
+	color:#585858;
+	font-family: 'Roboto', sans-serif;
+}
+.imp-text{
+	font-weight:bold;
+	font-size:19px;
+}
+
+.sub-heading{
+	color:#fff;
+	font-size:18px;
+	font-family: 'Roboto', sans-serif;
+	float:left;
+}
+
+/****HEADER CSS****/
+
+.header{
+	background:#fff;
+}
+#logo{
+	float:left;
+	margin: 11px 0;
+}
+.event-date{
+	float:left;
+	margin: 42px 0 0 20px;
+}
+.new-event{
+	float:right;
+	margin: 42px 0 0 20px;
+}
+.new-event span{
+	font-weight:300;
+	font-size:21px;
+}
+
+/********** PRODUCT ***********/
+
+.product{
+	background:#d2d2d2;
+	padding: 20px 0;
+}
+.product img{
+	float:left;
+	margin: 0 19px 0 0;
+}
+.product .dropdown-button{
+	width:100%;
+	text-align:left;
+	background: #fff url(../img/arrow.png) 96% center no-repeat ;
+}
+.product.dropdown-toggle:focus{
+	background: #fff url(../img/arrow.png) 96% center no-repeat !important;
+}
+.product .dropdown-menu{
+	min-width:100%;
+}
+.product .dropdownmenu{
+	margin:20px 0 0;
+	width: 100%;
+	padding: 4px;
+}
+.oder-quntity{
+	padding:20px 0 0;
+}
+
+/******** read-area *******/
+
+.red-area{
+	background:#ff0400;
+	padding:10px 0;
+}
+
+#r{
+	float:left;
+	clear:both;
+}
+
+#r3{
+	margin: 0px 0px 0px 10px;
+}
+
+.mobile-number{
+	float:left;
+	margin:0 0 0 11px;
+}
+
+#mobile1{
+	padding: 5px 31px;
+	float: left;
+	border: medium none;
+	padding: 5px 7px;
+	width: 60%;
+}
+
+/******** REG FORM *******/
+
+.regform{
+	background:url(../img/reg-bg.png) repeat-x;
+	background-size: cover;
+	padding:20px 0;
+}
+.reg-button{
+	width:30%;
+	text-align:left;
+	padding: 5px;
+}
+.title{
+	margin:0 0 20px;
+	padding: 0 14px;
+}
+.title span{
+	width: 100%;
+	display: inline-block;
+	margin: 0 0 10px;
+}
+
+/********* interested-product *********/
+
+.interested-product{
+	background:#d2d2d2;
+	padding:20px 0;
+	position:relative;
+}
+
+.product-form{
+	max-width:772px;
+	width:100%;
+	margin:auto;
+	display: inline-block;
+}
+.form{
+	margin:20px 0 0;
+}
+.one-form{
+	background: #f1f1f1;
+	padding: 14px 0px 0px;
+	margin:0 0 10px;
+}
+.send-button{
+	max-width: 300px;
+	display: block;
+	width: 100%;
+	margin: 100px auto 0;
+	border: none;
+	padding: 17px;
+	background:#ff0400;
+	color:#fff;
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.client{
+	padding:20px 0;
+}
+
+.client img{
+	margin:auto;
+}
+
+.pagefooter{
+	background:#a09d9d;
+	padding: 16px;
+}
+
+.footer-nav ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.footer-nav ul li{
+	float:left;
+}
+.footer-nav ul li a{
+	color:#fff;
+	font-size:18px;
+	padding: 0px 42px;
+}
+
+.footer-copy{
+	padding:20px 0;
+	background:#e7e7e7;
+}
+.footer-copyright a{
+	color:#4b4b4b;
+	padding:10px 0;
+}
+.footer-social ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.footer-social ul li{
+	display:inline-block;
+	margin:0 5px 0 0;
+}
+
+
+/******* RESPONSIVE CSS *******/
+
+
+    @media only screen and (max-width : 1200px) {
+		
+		.footer-nav ul li a {
+			padding: 0px 31px;
+		}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+		
+		.heading{
+			font-size:19px;
+		}
+		
+		.footer-nav ul li a {
+			padding: 0px 18px;
+		}
+		
+		.imp-text {
+			font-size: 16px;
+		}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		
+		.heading{
+			font-size:15px;
+		}
+		
+		.footer-nav ul li a {
+			padding: 0px 13px;
+			font-size: 16px;
+		}
+		
+		#logo{
+			width:100%;
+		}
+		
+		#logo img{
+			margin:auto;
+		}
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+		
+		
+		
+		.footer-nav ul li {
+			width: 50%;
+			text-align:center;
+		}
+		
+		.footer-nav ul li a {
+			padding: 0px 10px;
+			font-size: 11px;
+		}
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+		
+
+		
+		.footer-nav ul li a {
+			padding: 0px 10px;
+			font-size: 11px;
+		}
+        
+    }
+
+
+
+
+
+
+

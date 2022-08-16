@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+a, a:visited, a:link { color:#333333; text-decoration:none;	}
+a:hover { color:#ff3333; text-decoration:underline; }
+
+body { font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; font-size:13px; background:#cccccc; }
+button, input[type="button"], input[type="text"], input[type="submit"], input[type="file"], 
+select { font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; font-size:13px; 
+border:#000000 1px solid; }
+
+
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 97.5%;
+	padding-left: 1.25%;
+	padding-right: 1.25%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	background:#fefefe;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	clear: none;
+	float: none;
+	text-align:left;	
+}
+#div1 {
+}
+.header {
+	margin-top:10px;	
+}
+.nav {
+	margin:8px 0;
+	padding:8px 0; 
+	border-top:#f8f8f8 1px solid;
+	background:#ee161e;
+}
+.nav ul li { display:inline; padding-left:4px; padding-right:4px; }
+.nav ul li a { color:#ffffff; }
+.content {
+}
+.categories {
+}
+.categories li {
+	width:50%;	
+	float:left;
+	margin-bottom:10px;
+	list-style:none;
+}
+.item {
+	padding:5px 0; 
+}
+.labels { display:inline-block; width:20%; }
+.footer {
+	background:#171717;
+	border-top:#dddddd 1px solid;
+	color:#ffffff;
+	padding-top:25px;
+	text-align:center;
+}
+.footer ul, .footer ol { padding:0; }
+.footer ul li { list-style:none; display:inline; padding-left:5px; padding-right:5px; }
+.footer ul li a { color:#ffffff; }
+.p {
+}
+.title {
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width:100%;	
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#div1 {
+}
+.header {
+}
+.nav {
+}
+.content {
+}
+.categories {
+}
+.item {
+}
+.footer {
+}
+.p {
+}
+.title {
+}
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 100%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+.fluid {	
+	padding-left: 0.75%;
+	padding-right: 0.75%;	
+}
+#div1 {
+}
+.header {
+}
+.nav {
+}
+.content {
+}
+.categories {
+}
+.item {
+}
+.footer {
+}
+.p {
+}
+.title {
+}
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}
+ul li { list-style:none !important;}
+.noborder { border:none !important; margin-bottom:9px; }
+a.nohover:hover { color:#333333 !important; }
