@@ -1,0 +1,30 @@
+Git Command
+===========
+[credential]
+  helper = osxkeychain
+  useHttpPath = true
+  
+git --version
+git config --global user.name "your name"
+git config --global user.email "your email"
+git config --global --edit (to save for escape :wq )
+git init
+git status
+git add filename
+git commit -m "initial commit"
+git log
+git checkout 665e6fee3f10f42f20e14b5bec890ed61c7cc015
+git checkout master
+git branch
+git branch dev
+git checkout -b asif/demo
+git merge asif/demo
+touch .gitignore
+git remote add origin https://github.com/mdasif-123/lets-learn-git.git
+git remote -v
+git branch -M master
+git push -u origin dev
+git clone https://github.com/md-asif-123/First-Contribution.git
+
+
+
