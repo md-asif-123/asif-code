@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+body { font-size: 15px;font-weight: 500;font-family: 'Montserrat', sans-serif; }
+.rv-section { height: 100%; }
+.rv-section-div { display: flex; }
+.rv-left { width: 65%; }
+.rv-left .rv-background {
+    height: 100%;
+    background: url('../img/1-01.png1');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+.rv-left .rv-background .background-overlay {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+.rv-left .rv-background .rv-logo { text-align: right;margin-bottom: 1rem; }
+.rv-left .rv-background .rv-logo img { width: 20%;height: auto; }
+.rv-left .cvs-logo { text-align: center; }
+.rv-left .cvs-logo img { height: auto;width: 70%; }
+.rv-left .date-time { width: 100%;}
+.rv-left .date-time img { width: 50%; }
+.rv-left .dr-profile-img { width: 100%; }
+.rv-left .dr-profile-img .dr-info { width: 80%; }
+.rv-right { width: 40%;padding: 1rem 2rem;background: #ffe9e9; }
+.swiper { width: 100%;height: 130px; }
+.swiper-wrapper { align-items: baseline; }
+.swiper .swiper-slide img { width: 100%; }
+#countdown{  display: inline-block;width: 100%;text-align: center;padding: 5px; }
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .rv-section-div .rv-left { width: 55%; }
+    .rv-section-div .rv-right { width: 45%; }
+    .rv-section-div .rv-left .rv-background .rv-logo img { width: 40%;height: auto; }
+}
+@media screen and (max-width: 767px) {
+    .rv-section-div { display: block; }
+    .rv-section-div .rv-left, 
+    .rv-section-div .rv-right, 
+    .rv-section-div .rv-left .cvs-logo img { width: 100%; }
+    .rv-left .date-time img { width: 85%; }
+    .rv-left .dr-profile-img .dr-info { width: 100%; }
+    .swiper { height: 120px; }
+    .rv-left .rv-background .rv-logo img { width: 30%; }
+}
+.err{color:red;}
+.green{color:green;}
+.red{color:red;}
+
+.rv-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+  
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.column img {
+    display: block;
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner_image{
+    width:100%;
+    
+}
+body {
+    /* background-image:url('../img/1-02.png1'); 
+    background-image:url('../img/Untitled-2-09.jpg'); */
+    background-image:url('../Bg-02.png');
+    height: 100%;    
+    width: 100%;    
+    background-size: cover;    
+    background-repeat: no-repeat;    
+    background-color:#fbf6e4;
+    /* border: auto solid red; */
+}
+
+.sponser img{
+    display:block;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo{
+    width:30%;
+}
+.title{
+    width:45%;
+}
+.wellness{
+    width:45%;
+}
+.form_container{
+  padding:20px 0;
+}
+
+input#form2_submit {
+  margin: 5px 0;
+  background-color: #92212a;
+  color: white;
+  border: 0;
+  padding: 7px 15px;
+  width: 100%;
+  display: inline-block;
+}
+
+button#cust_lecture_logout {
+  margin: 5px 0;
+  background-color: #ec1f28;
+  color: white;
+  border: 0;
+  padding: 7px 15px;
+  display: inline-block;
+}
+.form-box{
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  box-shadow: 5px 10px 18px #e5e5e5;
+  padding: 30px;
+  background: ivory;
+}
+.rv-section-div{
+  padding-bottom:30px;
+}
