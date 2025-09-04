@@ -17,6 +17,7 @@ git add .(Satging all file)
 git checkout 665e6fee3f10f42f20e14b5bec890ed61c7cc015
 git checkout master(To enter into a new branch)
 git branch
+(If you are trying to access a 'master' branch that exists only on a remote repository, you need to fetch it first. Run git fetch origin)
 git branch dev(To create a new branch)
 git checkout -b asif/demo(To checkout into a new branch)
 git merge asif/demo
